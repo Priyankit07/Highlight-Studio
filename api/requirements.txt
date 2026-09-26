@@ -1,0 +1,22 @@
+# Generated from Highlight-Studio-main/pyproject.toml (+ uv.lock resolved
+# versions for the loosely-pinned deps) for use with plain pip instead of uv.
+# Requires Python >= 3.12 and system ffmpeg.
+
+numpy==2.5.2
+scipy==1.18.0
+matplotlib==3.11.1
+imageio-ffmpeg==0.6.0
+tqdm==4.70.0
+python-dotenv==1.2.3
+pillow==11.3.0
+yt-dlp[default]==2026.8.19
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+pydantic==2.13.5
+sse-starlette==3.4.11
+httpx==0.28.1
+
+# --- optional: only needed for `pytest`/type-checking, not for running the app ---
+# pytest>=9.0.0
+# scipy-stubs>=1.18.0

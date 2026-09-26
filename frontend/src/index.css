@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --card: #f1f5f9;
+  --border: #cbd5e1;
+  --primary: #059669;
+  --accent: #0284c7;
+  --danger: #dc2626;
+  --text: #0f172a;
+  --muted: #64748b;
+}
+
+.dark {
+  --bg: #0b0f17;
+  --surface: #131b26;
+  --card: #182232;
+  --border: #243247;
+  --primary: #10b981;
+  --accent: #38bdf8;
+  --danger: #ef4444;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Tabular numbers for scoreboards, durations, and counters */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pitch pattern background */
+.bg-pitch-lines {
+  background-image: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.05) 0%, transparent 60%),
+    linear-gradient(to right, rgba(36, 50, 71, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(36, 50, 71, 0.3) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+}

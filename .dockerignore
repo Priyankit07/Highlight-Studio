@@ -1,0 +1,16 @@
+.git
+.venv
+node_modules
+**/node_modules
+frontend/dist
+__pycache__
+**/__pycache__
+data
+raw videos
+output video
+audio output
+.env
+.env.*
+cookies.txt
+*.mp4
+*.wav

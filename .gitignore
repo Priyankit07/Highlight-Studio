@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+__MACOSX/
+.vscode/
+
+# Media directories and outputs
+raw videos/
+audio output/
+output video/
+data/
+*.wav
+*.mp4
+
+# Frontend & dependencies
+node_modules/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Config overrides
+config.toml
+.env
+.env.*
+cookies.txt
+
+# Test artifacts and temporary files
+test-results/
+playwright-report/
+blob-report/
+deno.lock
+
+!.env.example

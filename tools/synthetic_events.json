@@ -1,0 +1,63 @@
+[
+  {
+    "type": "jingle",
+    "start": 2.0,
+    "end": 12.0,
+    "peak": 7.0,
+    "description": "Loud intro broadcast jingle (distractor)"
+  },
+  {
+    "type": "roar",
+    "start": 95.0,
+    "peak": 95.3,
+    "end": 102.3,
+    "duration": 7.3,
+    "description": "Roar 1 (Goal)"
+  },
+  {
+    "type": "roar",
+    "start": 210.0,
+    "peak": 210.25,
+    "end": 216.25,
+    "duration": 6.25,
+    "description": "Roar 2 (Chance)"
+  },
+  {
+    "type": "roar",
+    "start": 345.0,
+    "peak": 345.4,
+    "end": 353.9,
+    "duration": 8.9,
+    "description": "Roar 3 (Goal)"
+  },
+  {
+    "type": "roar",
+    "start": 490.0,
+    "peak": 490.35,
+    "end": 495.85,
+    "duration": 5.85,
+    "description": "Roar 4 (Near Miss)"
+  },
+  {
+    "type": "roar",
+    "start": 620.0,
+    "peak": 620.3,
+    "end": 629.3,
+    "duration": 9.3,
+    "description": "Roar 5 (Goal)"
+  },
+  {
+    "type": "thump",
+    "start": 160.0,
+    "end": 160.1,
+    "peak": 160.01,
+    "description": "0.1s loud mic thump (distractor)"
+  },
+  {
+    "type": "whistle",
+    "start": 280.0,
+    "end": 281.2,
+    "peak": 280.6,
+    "description": "1.2s 3 kHz referee whistle (distractor)"
+  }
+]

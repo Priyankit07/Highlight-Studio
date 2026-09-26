@@ -1,0 +1,9 @@
+time,label,type,duration
+2.00,Loud intro broadcast jingle (distractor),jingle,10.00
+95.00,Roar 1 (Goal),roar,7.30
+210.00,Roar 2 (Chance),roar,6.25
+345.00,Roar 3 (Goal),roar,8.90
+490.00,Roar 4 (Near Miss),roar,5.85
+620.00,Roar 5 (Goal),roar,9.30
+160.00,0.1s loud mic thump (distractor),thump,0.10
+280.00,1.2s 3 kHz referee whistle (distractor),whistle,1.20

@@ -1,0 +1,12 @@
+{
+  "name": "highlight-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "./scripts/dev.sh",
+    "build": "./scripts/build.sh",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "uv run pytest",
+    "test": "uv run pytest && cd frontend && npm test"
+  }
+}
